@@ -6,6 +6,6 @@ namespace P2_2020BQ601_2020AU601_2020QQ650.Models
     {
         [Key]
         public int id_genero { get; set; }
-        public int nombre_genero { get; set; }
+        public string? nombre_genero { get; set; }
     }
 }
