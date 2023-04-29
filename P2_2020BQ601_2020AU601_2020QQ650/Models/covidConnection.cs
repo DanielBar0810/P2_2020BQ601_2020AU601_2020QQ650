@@ -9,6 +9,8 @@ namespace P2_2020BQ601_2020AU601_2020QQ650.Models
         {
         }
 
-        
+        DbSet<CasosReportados> CasosReportados { get; set; }
+        DbSet<Departamentos> Departamentos { get; set; }
+        DbSet<Departamentos> Departamentos { get; set; }
     }
 }
