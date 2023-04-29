@@ -23,6 +23,11 @@ namespace P2_2020BQ601_2020AU601_2020QQ650.Controllers
 
 
 
+            var listadoDeGeneros = (from g in _covidConnection.Generos select g).ToList();
+            //Manejador de controlador y vista
+            ViewData["listadoDeGeneros"] = new SelectList(listadoDeGeneros, "id_genero","nombre_genero");
+
+
 
             return View();
             }
