@@ -38,7 +38,7 @@ namespace P2_2020BQ601_2020AU601_2020QQ650.Controllers
                                               genero = g.nombre_genero,
                                               confirmados = c.casosConfirmados,
                                               recuperados = c.casosRecuperados,
-                                              fallecidos = c.casosFallecidos
+                                              fallecidos = c.casosFallecidos,
                                           }).ToList();
             ViewData["listadoCasosReportados"] = listadoCasosReportados;
 
